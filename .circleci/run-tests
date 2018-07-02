@@ -2,7 +2,7 @@
 
 echo "START: Running tests..."
 
-mvn test -o -q -B
+mvn test 
 
 if [[ $? -ne 0 ]] ; then
   echo "FINISH: There are test failures, failing build..."
