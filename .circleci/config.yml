@@ -8,4 +8,4 @@ jobs:
       - checkout
       - run:
           name: 'Run tests'
-          command: .circleci/run-tests
+          command: mvn test
