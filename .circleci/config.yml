@@ -8,4 +8,4 @@ jobs:
       - checkout
       - run:
           name: 'Run tests'
-          command: mvn test
+          command: mvn test -o -q -B
