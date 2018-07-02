@@ -5,6 +5,7 @@ jobs:
       - image: hovhannisyangurgen/maven-base:latest
     working_directory: ~/karate-circleci
     steps:
+      - checkout
       - run:
           name: 'Run tests'
           command: .circleci/run-tests
